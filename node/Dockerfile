@@ -1,5 +1,3 @@
 FROM node
-LABEL autho="jiantong.liu"
-WORKDIR /app/
-COPY install.sh /app/
+LABEL author="jiantong.liu"
 RUN npm install -g pm2 nodemon
